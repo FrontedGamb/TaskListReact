@@ -1,0 +1,30 @@
+.input-task{
+    display: flex;
+}
+.task{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    align-items: baseline;
+    margin-top: 20px;
+}
+.chk-input{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.btns-taks{
+    display: flex;
+    margin-top: 20px;
+}
+.delete,.edit{
+    padding: 5px 80px;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.delete{
+    background-color: #ca3b3b;
+    color: white;
+    border: 1px solid #ca3b3b;
+}

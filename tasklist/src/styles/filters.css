@@ -1,0 +1,16 @@
+.btns-filters{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+button{
+    padding: 5px 30px;
+}
+.active{
+    outline: 1px solid black;
+}
+.remaining-task p{
+    text-align: left;
+    padding: 10px 60px;
+}
